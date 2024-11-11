@@ -9,10 +9,8 @@ Este é um projeto de aplicação mobile que permite listar clientes, selecionar
 - [Configuração](#configuração)
 - [Execução](#execução)
 - [Funcionalidades](#funcionalidades)
-- [Estrutura do Projeto](#estrutura-do-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Estrutura do Projeto](#estrutura-do-projeto)
 
 ## Pré-requisitos
 
@@ -69,23 +67,6 @@ O nome do usuário é salvo utilizando `AsyncStorage` e exibido no cabeçalho da
 ### 6. Controle de Paginação
 Permite controlar o número de clientes exibidos por página com opções predefinidas.
 
-## Estrutura do Projeto
-
-Abaixo está uma visão geral da estrutura do projeto para facilitar a navegação.
-
-.
-├── **assets/**                     # Recursos como imagens e ícones
-├── **components/**                 # Componentes reutilizáveis e específicos do projeto
-│   ├── **ClientsScreen.tsx**       # Tela principal de listagem de clientes
-│   ├── **SelectedClientsScreen.tsx** # Tela de clientes selecionados
-│   └── **menu.tsx**                # Componente de menu lateral
-├── **services/**                   # Serviços de API
-│   └── **clientService.ts**        # Funções para buscar, criar, atualizar e deletar clientes
-├── **interfaces/**                 # Definição de tipos e interfaces
-│   └── **types.ts**                # Tipos de dados utilizados no projeto
-├── **App.tsx**                     # Arquivo principal do aplicativo
-└── **README.md**                   # Documentação do projeto
-
 ## Tecnologias Utilizadas
 
 - **React Native**: Framework principal para desenvolvimento mobile.
@@ -98,3 +79,24 @@ Abaixo está uma visão geral da estrutura do projeto para facilitar a navegaç�
 Projeto desenvolvido por [Amanda Durães](https://www.linkedin.com/in/amanda-dias-duraes-04b15a119/). 
 
 Muito obrigada :)
+
+
+## Estrutura do Projeto
+
+Abaixo está uma visão geral da estrutura do projeto para facilitar a navegação.
+
+   ```bash
+   .
+   ├── **assets/**                     # Recursos como imagens e ícones
+   ├── **components/**                 # Componentes reutilizáveis e específicos do projeto
+   │   ├── **ClientsScreen.tsx**       # Tela principal de listagem de clientes
+   │   ├── **SelectedClientsScreen.tsx** # Tela de clientes selecionados
+   │   └── **menu.tsx**                # Componente de menu lateral
+   ├── **services/**                   # Serviços de API
+   │   └── **clientService.ts**        # Funções para buscar, criar, atualizar e deletar clientes
+   ├── **interfaces/**                 # Definição de tipos e interfaces
+   │   └── **types.ts**                # Tipos de dados utilizados no projeto
+   ├── **App.tsx**                     # Arquivo principal do aplicativo
+   └── **README.md**                   # Documentação do projeto
+
+
